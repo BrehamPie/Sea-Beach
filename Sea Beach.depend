@@ -1,10 +1,16 @@
 # depslib dependency file v1.0
-1666316253 source:d:\computer graphics\sea beach\main.cpp
+1666368771 source:d:\computer graphics\sea beach\main.cpp
 	<GL/gl.h>
 	<GL/glu.h>
 	<GL/glut.h>
 	<windows.h>
 	<bits/stdc++.h>
+	"geometry.h"
+	"primitives.h"
+	"begin.h"
+	"display.h"
+	"keyboard.h"
+	"animation.h"
 
 1526093414 c:\program files\codeblocks\mingw\x86_64-w64-mingw32\include\gl\gl.h
 	<windows.h>
@@ -875,4 +881,16 @@
 	<GL/gl.h>
 	<GL/glu.h>
 	<stdlib.h>
+
+1666316705 d:\computer graphics\sea beach\begin.h
+
+1666368787 d:\computer graphics\sea beach\display.h
+
+1666368181 d:\computer graphics\sea beach\keyboard.h
+
+1666368308 d:\computer graphics\sea beach\animation.h
+
+1666368595 d:\computer graphics\sea beach\geometry.h
+
+1666368822 d:\computer graphics\sea beach\primitives.h
 
