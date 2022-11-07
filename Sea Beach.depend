@@ -1,13 +1,29 @@
 # depslib dependency file v1.0
-1666368771 source:d:\computer graphics\sea beach\main.cpp
+1667828259 source:d:\computer graphics\sea beach\main.cpp
 	<GL/gl.h>
 	<GL/glu.h>
 	<GL/glut.h>
 	<windows.h>
 	<bits/stdc++.h>
+	"variables.h"
+	"texturing.h"
+	"TexFiles.h"
 	"geometry.h"
 	"primitives.h"
+	"Bezier.h"
+	"sky.h"
+	"beach_area.h"
+	"wave.h"
+	"sun.h"
+	"bicycle.h"
+	"beach_chair.h"
+	"lighthouse.h"
+	"speedboat.h"
+	"ship.h"
 	"begin.h"
+	"umbrella.h"
+	"linear_motion.h"
+	"angular_motion.h"
 	"display.h"
 	"keyboard.h"
 	"animation.h"
@@ -884,13 +900,69 @@
 
 1666316705 d:\computer graphics\sea beach\begin.h
 
-1666368787 d:\computer graphics\sea beach\display.h
+1667831279 d:\computer graphics\sea beach\display.h
 
-1666368181 d:\computer graphics\sea beach\keyboard.h
+1667143456 d:\computer graphics\sea beach\keyboard.h
 
-1666368308 d:\computer graphics\sea beach\animation.h
+1666533498 d:\computer graphics\sea beach\animation.h
 
 1666368595 d:\computer graphics\sea beach\geometry.h
 
-1666368822 d:\computer graphics\sea beach\primitives.h
+1667831509 d:\computer graphics\sea beach\primitives.h
+
+1667831579 d:\computer graphics\sea beach\beach_area.h
+
+1666369887 d:\computer graphics\sea beach\linear_motion.h
+
+1666369958 d:\computer graphics\sea beach\angular_motion.h
+
+1667831542 d:\computer graphics\sea beach\sun.h
+
+1667397611 d:\computer graphics\sea beach\texturing.h
+	<windows.h>
+
+1667819856 d:\computer graphics\sea beach\variables.h
+
+1667719898 d:\computer graphics\sea beach\wave.h
+
+1667824121 d:\computer graphics\sea beach\beach_chair.h
+
+1667394033 d:\computer graphics\sea beach\lighthouse.h
+
+1667394040 d:\computer graphics\sea beach\speedboat.h
+
+1667830620 d:\computer graphics\sea beach\sky.h
+
+1667827752 d:\computer graphics\sea beach\texfiles.h
+
+1667825358 d:\computer graphics\sea beach\bezier.h
+
+1667648638 d:\computer graphics\sea beach\ship.h
+
+1667830692 d:\computer graphics\sea beach\umbrella.h
+
+1526093414 c:\program files\codeblocks\mingw\x86_64-w64-mingw32\include\stdio.h
+	<crtdefs.h>
+	<_mingw_print_push.h>
+	<_mingw_off_t.h>
+	<swprintf.inl>
+	<sec_api/stdio_s.h>
+	<_mingw_print_pop.h>
+
+1526093414 c:\program files\codeblocks\mingw\x86_64-w64-mingw32\include\_mingw_print_push.h
+
+1526093414 c:\program files\codeblocks\mingw\x86_64-w64-mingw32\include\_mingw_off_t.h
+
+1526093414 c:\program files\codeblocks\mingw\x86_64-w64-mingw32\include\swprintf.inl
+	<vadefs.h>
+
+1526093414 c:\program files\codeblocks\mingw\x86_64-w64-mingw32\include\sec_api\stdio_s.h
+	<stdio.h>
+
+1526093414 c:\program files\codeblocks\mingw\x86_64-w64-mingw32\include\_mingw_print_pop.h
+
+1526093416 c:\program files\codeblocks\mingw\x86_64-w64-mingw32\include\math.h
+	<crtdefs.h>
+
+1667831891 d:\computer graphics\sea beach\bicycle.h
 

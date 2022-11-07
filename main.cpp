@@ -4,23 +4,34 @@
 #include<windows.h>
 #include<bits/stdc++.h>
 
-//Global Variables
-GLfloat eye[3] = {50,0,50},look[3]={};
-GLfloat up[3]= {0,1,0};
-float fovy=90;
-
 //external header files
+#include "variables.h"
+#include "texturing.h"
+#include "TexFiles.h"
 #include "geometry.h"
 #include "primitives.h"
+#include "Bezier.h"
+#include "sky.h"
+#include "beach_area.h"
+#include "wave.h"
+#include "sun.h"
+#include "bicycle.h"
+#include "beach_chair.h"
+#include "lighthouse.h"
+#include "speedboat.h"
+#include "ship.h"
 #include "begin.h"
+#include "umbrella.h"
+#include "linear_motion.h"
+#include "angular_motion.h"
 #include "display.h"
 #include "keyboard.h"
 #include "animation.h"
+
 int main(int argc,char **argv) {
 
     // Reset Global Variables
     initialize();
-
     // Initialize GLUT Library.
     glutInit(&argc,argv);
 
@@ -39,14 +50,16 @@ int main(int argc,char **argv) {
 
     // Create Window with title.
     glutCreateWindow("Sea Beach");
-
+    //glutFullScreen();
     // Enable Necessary Capabilities.
     glEnable(GL_DEPTH_TEST );
     glEnable(GL_LIGHTING);
     glEnable(GL_NORMALIZE);
-
+    glColorMaterial(GL_FRONT,GL_DIFFUSE);
+    glEnable(GL_COLOR_MATERIAL);
     // Specify Keyboard function.
     glutKeyboardFunc(keyBoardFunction);
+    LoadTextureInMemory();
     // Specify display function.
     glutDisplayFunc(Display);
 

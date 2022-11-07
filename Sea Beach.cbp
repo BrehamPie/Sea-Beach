@@ -42,9 +42,27 @@
 			<Add library="gdi32" />
 			<Add directory="C:/Program Files/CodeBlocks/MinGW/x86_64-w64-mingw32/lib" />
 		</Linker>
+		<Unit filename="Bezier.h" />
+		<Unit filename="TexFiles.h" />
+		<Unit filename="angular_motion.h" />
+		<Unit filename="animation.h" />
+		<Unit filename="beach_area.h" />
+		<Unit filename="beach_chair.h" />
 		<Unit filename="begin.h" />
 		<Unit filename="display.h" />
+		<Unit filename="geometry.h" />
+		<Unit filename="keyboard.h" />
+		<Unit filename="lighthouse.h" />
+		<Unit filename="linear_motion.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="primitives.h" />
+		<Unit filename="ship.h" />
+		<Unit filename="sky.h" />
+		<Unit filename="speedboat.h" />
+		<Unit filename="sun.h" />
+		<Unit filename="texturing.h" />
+		<Unit filename="variables.h" />
+		<Unit filename="wave.h" />
 		<Extensions>
 			<lib_finder disable_auto="1" />
 		</Extensions>

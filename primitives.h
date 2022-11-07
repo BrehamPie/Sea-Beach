@@ -1,3 +1,6 @@
+float default_ambient[]={.2,.2,.2};
+float default_diffuse[]={.8,.8,.8};
+float default_specular[] = {0,0,0};
 void drawLine(GLfloat A[],GLfloat B[],const GLfloat Color[]) {
     glPushMatrix();
     glColor3fv(&Color[0]);
@@ -5,6 +8,26 @@ void drawLine(GLfloat A[],GLfloat B[],const GLfloat Color[]) {
     glVertex3fv(&A[0]);
     glVertex3fv(&B[0]);
     glEnd();
+    glPopMatrix();
+}
+void drawPolygon(GLfloat a[][3],int n,GLfloat color[],GLfloat t[][2]) {
+    glPushMatrix();
+    glBegin(GL_POLYGON);
+    GLfloat mat_ambient[] = { color[0], color[1],color[2], 1.0 };
+    GLfloat mat_diffuse[] = { color[0], color[1],color[2], 1.0 };
+    GLfloat mat_specular[] = { color[0], color[1],color[2], 1.0 };
+    GLfloat mat_shininess[] = {60};
+    glMaterialfv( GL_FRONT, GL_AMBIENT, mat_ambient);
+    glMaterialfv( GL_FRONT, GL_DIFFUSE, mat_diffuse);
+    glMaterialfv( GL_FRONT, GL_SPECULAR, mat_specular);
+    glMaterialfv( GL_FRONT, GL_SHININESS, mat_shininess);
+    for(int i=0; i<n; i++) {
+        glVertex3fv(&a[i][0]);glTexCoord2fv(&t[i][0]);
+    }
+    glEnd();
+    glMaterialfv( GL_FRONT, GL_AMBIENT, default_ambient);
+    glMaterialfv( GL_FRONT, GL_DIFFUSE, default_diffuse);
+    glMaterialfv( GL_FRONT, GL_SPECULAR, default_specular);
     glPopMatrix();
 }
 
@@ -22,12 +45,18 @@ void drawQuad(GLfloat A[],GLfloat B[],GLfloat C[],GLfloat D[],GLfloat color[]) {
     glMaterialfv( GL_FRONT, GL_SHININESS, mat_shininess);
     glBegin(GL_QUADS);
     getNormal3p(A,B,C);
-    glVertex3fv(&A[0]);glVertex3fv(&B[0]);
-    glVertex3fv(&C[0]);glVertex3fv(&D[0]);
+    glVertex3fv(&A[0]);glTexCoord2f(0,1);
+    glVertex3fv(&B[0]);glTexCoord2f(1,1);
+    glVertex3fv(&C[0]);glTexCoord2f(1,0);
+    glVertex3fv(&D[0]);glTexCoord2f(0,0);
     glEnd();
     glPopMatrix();
+     glMaterialfv( GL_FRONT, GL_AMBIENT, default_ambient);
+    glMaterialfv( GL_FRONT, GL_DIFFUSE, default_diffuse);
+    glMaterialfv( GL_FRONT, GL_SPECULAR, default_specular);
 
 }
+
 void drawTriangle(GLfloat color[]) {
     glBegin(GL_TRIANGLES);
 
@@ -49,14 +78,6 @@ void drawMainAxis() {
     drawLine(A,E,c3);
     glPopMatrix();
     return;
-}
-void drawPolygon(GLfloat a[][3],int n,GLfloat color[]) {
-    glBegin(GL_POLYGON);
-    glColor3fv(color);
-    for(int i=0; i<n; i++) {
-        glVertex3fv(&a[i][0]);
-    }
-    glEnd();
 }
 // Draw 1*1*1 cube.
 void drawCube(GLfloat color[]) {
