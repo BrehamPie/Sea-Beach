@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1667917589 source:d:\computer graphics\sea beach\main.cpp
+1668232174 source:d:\computer graphics\sea beach\main.cpp
 	<GL/gl.h>
 	<GL/glu.h>
 	<GL/glut.h>
@@ -902,11 +902,11 @@
 
 1667917616 d:\computer graphics\sea beach\begin.h
 
-1668232084 d:\computer graphics\sea beach\display.h
+1668261298 d:\computer graphics\sea beach\display.h
 
 1667143456 d:\computer graphics\sea beach\keyboard.h
 
-1668230182 d:\computer graphics\sea beach\animation.h
+1668261219 d:\computer graphics\sea beach\animation.h
 
 1666368595 d:\computer graphics\sea beach\geometry.h
 
@@ -923,7 +923,7 @@
 1667397611 d:\computer graphics\sea beach\texturing.h
 	<windows.h>
 
-1668232094 d:\computer graphics\sea beach\variables.h
+1668232185 d:\computer graphics\sea beach\variables.h
 
 1667719898 d:\computer graphics\sea beach\wave.h
 
@@ -970,5 +970,5 @@
 
 1667918592 d:\computer graphics\sea beach\volleyball.h
 
-1668232118 d:\computer graphics\sea beach\human.h
+1668232193 d:\computer graphics\sea beach\human.h
 

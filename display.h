@@ -30,27 +30,27 @@ void Display() {
     glTranslatef(100,0,20);
     volleyball();
     glPushMatrix();
-    glTranslatef(13,0,6);
+    glTranslatef(11,0,6);
     glRotatef(90,0,1,0);
     ballman[0].human();
    // human();
     glPopMatrix();
 
     glPushMatrix();
-    glTranslatef(13,0,20);
+    glTranslatef(11,0,20);
     glRotatef(90,0,1,0);
     ballman[1].human();
     glPopMatrix();
 
     float moveplayer = -30;
     glPushMatrix();
-    glTranslatef(39,0,6);
+    glTranslatef(41,0,6);
     glRotatef(-90,0,1,0);
     ballman[2].human();
     glPopMatrix();
 
     glPushMatrix();
-    glTranslatef(39,0,20);
+    glTranslatef(41,0,20);
     glRotatef(-90,0,1,0);
     ballman[3].human();
     glPopMatrix();
