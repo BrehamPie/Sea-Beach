@@ -17,10 +17,11 @@
 #include "sun.h"
 #include "bicycle.h"
 #include "beach_chair.h"
+#include "volleyball.h"
+#include "human.h"
 #include "lighthouse.h"
 #include "speedboat.h"
 #include "ship.h"
-#include "begin.h"
 #include "umbrella.h"
 #include "linear_motion.h"
 #include "angular_motion.h"
@@ -28,6 +29,8 @@
 #include "keyboard.h"
 #include "animation.h"
 
+
+#include "begin.h"
 int main(int argc,char **argv) {
 
     // Reset Global Variables

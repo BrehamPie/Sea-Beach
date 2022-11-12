@@ -20,4 +20,8 @@ void LoadTextureInMemory(){
     LoadTexture("D:\\Computer Graphics\\Sea Beach\\Textures\\wood.bmp",9);
     LoadTexture("D:\\Computer Graphics\\Sea Beach\\Textures\\black.bmp",10);
     LoadTexture("D:\\Computer Graphics\\Sea Beach\\Textures\\red.bmp",11);
+    LoadTexture("D:\\Computer Graphics\\Sea Beach\\Textures\\blue.bmp",12);
+    LoadTexture("D:\\Computer Graphics\\Sea Beach\\Textures\\hawai.bmp",13);
+    LoadTexture("D:\\Computer Graphics\\Sea Beach\\Textures\\pant.bmp",14);
+    LoadTexture("D:\\Computer Graphics\\Sea Beach\\Textures\\skin.bmp",15);
 }

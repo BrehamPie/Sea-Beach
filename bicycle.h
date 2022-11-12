@@ -412,11 +412,11 @@ void updateScene() {
 }
 void drawCycle() {
     updateScene();
-    speed = 0.1f;
+    //speed = 0.1f;
     glPushMatrix();
     glTranslatef(100,9,0);
     glRotatef(90,0,1,0);
-    glScalef(6,6,6);
+    glScalef(2,2,2);
     glPushMatrix();
     glRotatef(angley,1.0f,0.0f,0.0f);
     glRotatef(anglex,0.0f,1.0f,0.0f);

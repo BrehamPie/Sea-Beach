@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1667828259 source:d:\computer graphics\sea beach\main.cpp
+1667917589 source:d:\computer graphics\sea beach\main.cpp
 	<GL/gl.h>
 	<GL/glu.h>
 	<GL/glut.h>
@@ -17,16 +17,18 @@
 	"sun.h"
 	"bicycle.h"
 	"beach_chair.h"
+	"volleyball.h"
+	"human.h"
 	"lighthouse.h"
 	"speedboat.h"
 	"ship.h"
-	"begin.h"
 	"umbrella.h"
 	"linear_motion.h"
 	"angular_motion.h"
 	"display.h"
 	"keyboard.h"
 	"animation.h"
+	"begin.h"
 
 1526093414 c:\program files\codeblocks\mingw\x86_64-w64-mingw32\include\gl\gl.h
 	<windows.h>
@@ -898,13 +900,13 @@
 	<GL/glu.h>
 	<stdlib.h>
 
-1666316705 d:\computer graphics\sea beach\begin.h
+1667917616 d:\computer graphics\sea beach\begin.h
 
-1667831279 d:\computer graphics\sea beach\display.h
+1668232084 d:\computer graphics\sea beach\display.h
 
 1667143456 d:\computer graphics\sea beach\keyboard.h
 
-1666533498 d:\computer graphics\sea beach\animation.h
+1668230182 d:\computer graphics\sea beach\animation.h
 
 1666368595 d:\computer graphics\sea beach\geometry.h
 
@@ -921,7 +923,7 @@
 1667397611 d:\computer graphics\sea beach\texturing.h
 	<windows.h>
 
-1667819856 d:\computer graphics\sea beach\variables.h
+1668232094 d:\computer graphics\sea beach\variables.h
 
 1667719898 d:\computer graphics\sea beach\wave.h
 
@@ -931,9 +933,9 @@
 
 1667394040 d:\computer graphics\sea beach\speedboat.h
 
-1667830620 d:\computer graphics\sea beach\sky.h
+1667891376 d:\computer graphics\sea beach\sky.h
 
-1667827752 d:\computer graphics\sea beach\texfiles.h
+1667912592 d:\computer graphics\sea beach\texfiles.h
 
 1667825358 d:\computer graphics\sea beach\bezier.h
 
@@ -964,5 +966,9 @@
 1526093416 c:\program files\codeblocks\mingw\x86_64-w64-mingw32\include\math.h
 	<crtdefs.h>
 
-1667831891 d:\computer graphics\sea beach\bicycle.h
+1667881828 d:\computer graphics\sea beach\bicycle.h
+
+1667918592 d:\computer graphics\sea beach\volleyball.h
+
+1668232118 d:\computer graphics\sea beach\human.h
 

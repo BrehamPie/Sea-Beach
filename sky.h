@@ -1,4 +1,8 @@
 void sky(){
+    glMaterialfv( GL_FRONT, GL_AMBIENT, default_ambient);
+    glMaterialfv( GL_FRONT, GL_DIFFUSE, default_diffuse);
+    glMaterialfv( GL_FRONT, GL_SPECULAR, default_specular);
+    glMaterialfv(GL_FRONT,GL_EMISSION,default_specular);
     glPushMatrix();
     GLUquadricObj *quad;
     quad = gluNewQuadric();

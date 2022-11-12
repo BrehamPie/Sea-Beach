@@ -49,8 +49,10 @@
 		<Unit filename="beach_area.h" />
 		<Unit filename="beach_chair.h" />
 		<Unit filename="begin.h" />
+		<Unit filename="bicycle.h" />
 		<Unit filename="display.h" />
 		<Unit filename="geometry.h" />
+		<Unit filename="human.h" />
 		<Unit filename="keyboard.h" />
 		<Unit filename="lighthouse.h" />
 		<Unit filename="linear_motion.h" />
@@ -61,7 +63,9 @@
 		<Unit filename="speedboat.h" />
 		<Unit filename="sun.h" />
 		<Unit filename="texturing.h" />
+		<Unit filename="umbrella.h" />
 		<Unit filename="variables.h" />
+		<Unit filename="volleyball.h" />
 		<Unit filename="wave.h" />
 		<Extensions>
 			<lib_finder disable_auto="1" />

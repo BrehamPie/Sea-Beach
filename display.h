@@ -1,5 +1,5 @@
-void Display(){
- // Clear Current Buffer
+void Display() {
+// Clear Current Buffer
     glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
     // Select Matrix for Operation
@@ -24,21 +24,53 @@ void Display(){
     glViewport(0,0,1366,768);
     //umbrella();
     /*//ship();*/
+    /* --------------------volleyball court design---------------------- */
 
-    glColor3f(1,1,1);
-    //sky();
-    beach_area();
-   // sun();
-    sunLight();
-drawCycle();
+    glPushMatrix();
+    glTranslatef(100,0,20);
+    volleyball();
+    glPushMatrix();
+    glTranslatef(13,0,6);
+    glRotatef(90,0,1,0);
+    ballman[0].human();
+   // human();
+    glPopMatrix();
+
+    glPushMatrix();
+    glTranslatef(13,0,20);
+    glRotatef(90,0,1,0);
+    ballman[1].human();
+    glPopMatrix();
+
+    float moveplayer = -30;
+    glPushMatrix();
+    glTranslatef(39,0,6);
+    glRotatef(-90,0,1,0);
+    ballman[2].human();
+    glPopMatrix();
+
+    glPushMatrix();
+    glTranslatef(39,0,20);
+    glRotatef(-90,0,1,0);
+    ballman[3].human();
+    glPopMatrix();
+
+    glPopMatrix();
+    /*--------------------------------------------------------------------*/
+    //glColor3f(1,1,1);
+   // sky();
+   // beach_area();
+    sun();
+     sunLight();
+    //drawCycle();
     //wave();
-   // chair();
-   /* //
-    //lighthouse();
-    //speedboat();
-    glTranslatef(90,15,50);
-    glRotatef(90,0,0,1);*/
-   // bottleBezier();
+    //chair();
+    /* //
+     //lighthouse();
+     //speedboat();
+     glTranslatef(90,15,50);
+     glRotatef(90,0,0,1);*/
+    // bottleBezier();
     // execute all issued command quickly.
     glFlush();
     //Swap front and back buffer for smooth viewing.
